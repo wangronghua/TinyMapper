@@ -2,7 +2,8 @@
   <PropertyGroup>
 	<RootNamespace>Nelibur.ObjectMapper</RootNamespace>
     <TargetFrameworks>net35;net40;netstandard1.3</TargetFrameworks>
-
+    
+	  
     <ImportLibs>net</ImportLibs>
     <Configurations>Debug;Release;VS</Configurations>
     <Authors>Sergey Morenko</Authors>
@@ -18,8 +19,9 @@
     <Version>3.0.2-beta</Version>
     <AssemblyVersion>3.0.1.0</AssemblyVersion>
     <FileVersion>3.0.1.0</FileVersion>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageVersion>3.0.3</PackageVersion>
+
+	<PackageId>BruceTinyMapper</PackageId>
+    <PackageVersion>103.0.3</PackageVersion>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)'=='Release' or '$(Configuration)'=='VS'">
