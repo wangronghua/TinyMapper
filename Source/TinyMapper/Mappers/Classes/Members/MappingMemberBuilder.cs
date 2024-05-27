@@ -24,7 +24,7 @@ namespace Nelibur.ObjectMapper.Mappers.Classes.Members
 
         private static MemberInfo[] GetPublicMembers(Type type)
         {
-            BindingFlags flags = BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static;
+            BindingFlags flags = BindingFlags.Public | BindingFlags.Instance;
             PropertyInfo[] properties = type.GetProperties(flags);
             FieldInfo[] fields = type.GetFields(flags);
             MemberInfo[] members = new MemberInfo[properties.Length + fields.Length];
